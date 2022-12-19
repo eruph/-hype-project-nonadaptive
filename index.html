@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>CSS Flexbox</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css" />
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="header">
+            <div class="header-logo">
+                hype
+            </div>
+            <div class="nav">
+                <a href="#openRegMenu" class="nav-item">Войти</a>
+                <a href="#" class="nav-item">Каталог</a>
+                <a href="#" class="nav-item">Доставка и оплата</a>
+                <a href="#" class="nav-item">Q&A</a>
+                <a href="#" class="nav-item">О нас</a>
+                <a href="#" class="nav-item">+8 (968) 193-02-04</a>
+                <a href="#openModal" class="nav-item">
+                    <img src="./images/header-pocket.png" alt="pocket" class="header-image">
+                </a>
+            </div>
+        </div>
+        <div class="intro">
+            <img src="./images/intro.png" alt="intro" class="intro__image">
+            <div class="container">
+                <div class="intro__inner">
+                    <h1 class="intro__title">HYPE</h1>
+                </div>
+            </div>
+            <div class="container__intro-button">
+                <a href="#" class="intro__button">В каталог</a>
+            </div>
+        </div>
+    </div>
+    <div class="section-first">
+        <div class="container__section-first">
+            <div class="section-first__block-first">
+                <img src="./images/pc-first.png" alt="pc-first" class="block-first__pc-first">
+                <div class="block-first__title">invader</div>
+                <div class="block-first__subtitle">GTX 1660 Super 8GB</div>
+                <button class="block-first__button">Подробнее</button>
+            </div>
+            <div class="section-first__block-second">
+                <img src="./images/pc-second.png" alt="pc-second" class="block-first__pc-second">
+                <div class="block-second__title">lumen</div>
+                <div class="block-second__subtitle">NRTX 3060 Ti 8GB</div>
+                <button class="block-second__button">Подробнее</button>
+            </div>
+            <div class="section-first__block-third">
+                <img src="./images/pc-third.png" alt="pc-trird" class="block-first__pc-third">
+                <div class="block-third__title">volt</div>
+                <div class="block-third__subtitle">RTX 2060 Super 8GB</div>
+                <button class="block-third__button">Подробнее</button>
+            </div>
+        </div>
+        <button class="section-first__button">ЕЩЁ</button>
+    </div>
+    <div class="section-second">
+        <div class="section-second__intro">
+            <div class="section-second__intro-title">Доставка и оплата</div>
+            <div class="section-second__intro-subtitle">Стоимость и сроки доставки зависят от выбранного Вами метода
+                доставки и города, в который необходимо её осуществить:
+            </div>
+            <div class="section-second">
+                <div class="section-second__block-first">
+                    <img src="./images/section-second__geo.png" alt="geo" class="block-first__img-geo">
+                    <span class="section-second__block-first__title">Доставка по Санкт-Петербургу</span>
+                    <div class="suptitle">
+                        <ol type="1" class="section-second__ol">
+                            <li>Самовывоз в г. СПб. Вы можете забрать товар в течение 24 часов после оформления и
+                                подтверждения заказа по адресу: г. СПб, проспект Пархоменко 20</li>
+                            <li>Доставка до ближайшего к Вам пункта выдачи компании СДЭК - 150 руб.., 2-3 дня</li>
+                            <li>Доставка курьером СДЭК до двери - 285 руб..; 1-3 дня</li>
+                            <li>Доставка курьером нашей компании в течении 2-3 часов после подтверждения заказа -
+                                450
+                                руб. </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="section-second__block-second">
+                    <img src="./images/section-second__car.png" alt="car" class="block-second__img-car">
+                    <span class="section-second__block-second__title">Доставка в регионы</span>
+                    <div class="section-second__block-second__subtitle">Доставка в регионы осуществляется курьерской
+                        компанией СДЭК до двери либо до пункта выдачи / Почтой России / DPD / Деловыми линиями.
+                    </div>
+                </div>
+                <div class="section-second__block-third">
+                    <img src="./images/section-second__pay.png" alt="pay" class="block-third__img-pay">
+                    <span class="section-second__block-third__title">Оплата</span>
+                    <div class="section-second__block-third__subtitle">Предоплата на сайте. После подтверждения
+                        покупки Вы будете направлены на форму оплаты банковской картой. Вы можете оплатить заказ в
+                        течение суток.В случае отсутствия оплаты, бронь на товары и заказ отменяются.<wbr>При получении заказа. Оплата курьеру наличными или картой c комиссией 2,5 — 3,5% за наложенный платеж.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-third">
+        <div class="section-third__title">часто задаваемые вопросы</div>
+        <div class="section-third__box">
+            <div class="section-third__row">
+                <img src="./images/section-second__pay.png" alt="pay" class="section-third__pay">
+                <a href="#" class="section-third__row-title">Оплата</a>
+            </div>
+            <div class="section-third__row">
+                <img src="./images/icons8-земной-шар-50.png" alt="pay" class="section-third__delivery">
+                <a href="#" class="section-third__row-title">Доставка</a>
+            </div>
+            <div class="section-third__row">
+                <img src="./images/icons8-задача-32.png" alt="pay" class="section-third__task">
+                <a href="#" class="section-third__row-title">Кредит/Рассрочка</a>
+            </div>
+            <div class="section-third__row">
+                <img src="./images/icons8-звезда-50.png" alt="pay" class="section-third__star">
+                <a href="#" class="section-third__row-title">Гарантия</a>
+            </div>
+            <div class="section-third__row">
+                <img src="./images/icons8-досье-64.png" alt="pay" class="section-third__complementation">
+                <a href="#" class="section-third__row-title">Копмлектация</a>
+            </div>
+            <div class="section-third__row">
+                <img src="./images/icons8-привод-48.png" alt="pay" class="section-third__gear">
+                <a href="#" class="section-third__row-title">Производство</a>
+            </div>
+            <div class="section-third__row">
+                <img src="./images/icons8-монеты-50.png" alt="money" class="section-third__money">
+                <a href="#" class="section-third__row-title">Цена</a>
+            </div>
+        </div>
+    </div>
+    <div class="section-fourth">
+        <div class="section-fourth__box">
+            <div class="section-fourth__title">Компания HYPE</div>
+            <div class="section-fourth__container">
+                <div class="section-fourth__flex-element">
+                    <div class="section-fourth__flex-title">7 лет
+                    </div>
+                    <div class="section-fourth__flex-subtitle">За эти годы мы выросли в одного из лидеров на игровом
+                        компьютерном рынке.
+                    </div>
+                </div>
+                <div class="section-fourth__flex-element">
+                    <div class="section-fourth__flex-title">25 000 ПК
+                    </div>
+                    <div class="section-fourth__flex-subtitle">Мы произвели более 25 тысяч игровых компьютеров,
+                        которых не продали для наших клиентов.
+                    </div>
+                </div>
+                <div class="section-fourth__flex-element">
+                    <div class="section-fourth__flex-title">44 клуба
+                    </div>
+                    <div class="section-fourth__flex-subtitle">Мы оборудовали 44 компьютерных клубов под
+                        Челябинском, присутствует программа лизинга.
+                    </div>
+                </div>
+                <div class="section-fourth__flex-element">
+                    <div class="section-fourth__flex-title">64 блогера
+                    </div>
+                    <div class="section-fourth__flex-subtitle">Топовых 64 ютуб-блогеров и стримеров выбрали
+                        компьютер HYPE.
+                    </div>
+                </div>
+                <div class="section-fourth__flex-element">
+                    <div class="section-fourth__flex-title">32 турнира
+                    </div>
+                    <div class="section-fourth__flex-subtitle">Мы провели 32 киберспортивных турнира при технической
+                        поддержке HYPE.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div id="openModal" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Корзина</h3>
+                    <a href="#close" title="Close" class="close">х</a>
+                </div>
+                <div class="modal-body">
+                    <p>Корзина пуста.</p>
+                </div>
+                <span>
+                    <a href="#" class="modal-window__btn">Перейти на главную.</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div id="openRegMenu" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Введите данные пользователя:</h3>
+                    <a href="#close" title="Close" class="close">х</a>
+                </div>
+                <form action="handler.php">
+                    <p><strong>Логин:</strong>
+                        <input maxlength="20" size="40" name="login">
+                    </p>
+                    <p><strong>Пароль:</strong>
+                        <input type="password" maxlength="25" size="40" name="password">
+                    </p>
+                    <p><input type="submit" value="Войти"></p>
+                </form>
+                <span>
+                    <a href="#" class="modal-window__btn">Перейти на главную.</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
